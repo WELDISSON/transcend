@@ -1,3 +1,4 @@
 test/erro.png
 test_po/erro.png
 *.pyc
+.vscode
