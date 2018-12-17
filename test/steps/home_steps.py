@@ -10,7 +10,8 @@ def step_impl(context):
 
     url = 'http://localhost:8000/'
     context.home.open_page(url)
-    time.sleep(2)
+    time.sleep(3)
+    
 @then(u'valido a logo do transcend')
 def step_impl(context):
     assert True is context.home.valid_logo()
