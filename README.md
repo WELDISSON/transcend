@@ -1,5 +1,6 @@
 # transcend
 > Repository with example for UI test automation using behave and splinter for python.
+> Repository used in the talk **["Organizing your test suite with Page Objects pattern"](https://goo.gl/dtdrfH)**
 
 ---
 ## Table of Contents
@@ -40,13 +41,18 @@ $ python -m SimpleHTTPServer 8000
 
 --- 
 ### Run test
-- Execute your tests scripts:
+- Execute your tests no page objects:
 
 ```shell
 
 $ behave test/
 ```
+- Execute your tests with page objects:
 
+```shell
+
+$ behave test_po/
+```
 ---
 ## Support
 - E-mail: `weldisson.araujo@gmail.com`
