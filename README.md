@@ -28,7 +28,7 @@ $ git clone https://github.com/WELDISSON/transcend.git
 - Install all dependencies (test/requirement.txt)
 
 ```shell
-$ (sudo) pip install -r test/requirement.txt
+$ (sudo) pip install -r requirement.txt
 ```
 
 ---
